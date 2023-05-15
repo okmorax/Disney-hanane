@@ -1,0 +1,660 @@
+.bouton2{
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+
+body {
+    background-color: #040814;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+/*Pour positionner les boutons et le logo*/
+
+nav li:nth-child(1){
+    margin-right: 10px;
+}
+
+nav li:nth-child(2) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+
+nav li:nth-child(2) input {
+    background-color: blue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav li.disney {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+nav li.disney img {
+    height: 50px;
+    max-width: 100%;
+}
+
+/*Faire disparaitre et apparaitre le boutons et le logo quand on défile la page*/
+.bouton1{
+    display: none;
+}
+
+.scrolled nav li.disney{
+    display: inline-block;
+
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.identifier {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    /* curseur de la souris qui pointe pour une intéraction */
+    cursor: pointer;
+    float: right;
+    border: 1px solid white;
+}
+
+.pg-end {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pg {
+    color: rgb(155, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pg1 {
+    color: rgb(155, 155, 155);
+}
+
+.pg2 {
+    color: rgb(155, 155, 155);
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+.suivant {
+    background-color: blue;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    border: black 1px solid;
+    color: white;
+    height: 40px;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.mail {
+    background-color: rgb(75, 75, 75);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    text-decoration: none;
+    border: black 1px solid;
+    height: 40px;
+    padding: 8px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.texte1 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    left: 0;
+    right: 579px;
+    top: 200px;
+    color: white;
+    width: 50%;
+}
+
+.texte2 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    left: 0;
+    right: 579px;
+    top: 1050px;
+    color: white;
+    width: 50%;
+}
+
+.texte3 {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    left: 0;
+    right: 79px;
+    top: 1530px;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.texte {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+.img4 {
+    width: 150px;
+    height: 150px;
+}
+
+.image5 {
+    margin-left: 100px;
+    width: 550px;
+    height: 550px;
+}
+
+
+
+.image6 {
+    width: 550px;
+    height: 550px;
+    margin-right: 550px;
+}
+
+
+
+.image7 {
+    width: 550px;
+    height: 550px;
+    margin-left: -550px;
+}
+
+.image8 {
+    width: 450px;
+    height: 450px;
+   
+}
+
+.image9 {
+    width: 450px;
+    height: 450px;
+    margin-right: 550px;
+}
+
+.image10 {
+    width: 450px;
+    height: 450px;
+    margin-left: -550px;
+}
+
+.image11 {
+    width: 450px;
+    height: 450px;
+   
+}
+
+.faq {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+.faq h1 {
+    font-size: 38,4px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu {
+    color: silver;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 48px;
+}
+.question {
+    background-color: #13151d;
+    padding: 1.6em 2em;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.question .titre {
+    font-size: 20,8px;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plus {
+    position: absolute;
+    z-index: 5;
+    right: -0.2%;
+    bottom: 50%;
+}
+/*Afficher le plus et le positionner*/
+.plus .bar {
+    width: 24px;
+    height: 3.2px;
+    display: block;
+    background-color: #fff;
+    border-radius: 5px;
+    position: relative;
+}
+.plus .bar-one {
+    top: 3px;
+    transform: rotate(90deg);
+}
+/*L'animation est activé quand on click */
+.plus.active .bar-one {
+    opacity: 0;
+}
+.plus.active .bar-two {
+    left: 20%;
+}
+/*On ne voit pas le texte quand on ne click pas*/
+.text {
+    font-size: 20.8px;
+    opacity: 0;
+    height: 0;
+}
+.text p {
+    margin: 0;
+    padding: 0;
+}
+/*Le texte apparait quand on click*/
+.text.active {
+    opacity: 1;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text.active p {
+    margin: 27.2px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text ol {
+    margin-left: 20.8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text ul li,
+.text ol li {
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: silver;
+    font-size: 12px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 32px;
+}
+footer .logo {
+    width: 8%;
+    margin-bottom: 16px;
+}
+footer a {
+    color: silver;
+}
+footer a:hover,
+footer a:active {
+    color: #fff;
+}
+#lang-select {
+    background-color: transparent;
+    color: silver;
+    padding: 0.3em 0.7em;
+    border: none;
+    cursor: pointer;
+}
+/*Quand on click sur Français on a le choix entre français et anglais avec un fond blanc*/
+#lang-select:focus-visible {
+    border: 1px solid ;
+    color: #fff;
+    border-radius: 2px;
+}
+#lang-select option {
+    color: #000;
+}
+.footer-links li {
+    display: inline-block;
+    margin: 11.2px;
+}
+.footer-links li a {
+    font-size: 12px;
+}
+
+footer div:first-of-type a {
+    margin: 12.8px;
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+        img{
+            background-size: 100% auto;
+        }
+   
+        .texte1{
+            position: static;
+            transform: none;
+            text-align: center;
+        }
+   
+        .texte1 img{
+            position: absolute;
+            top: 290px;
+            max-width: 30%;
+            height: auto;
+            text-align: center;
+        }
+   
+   
+        .texte1 h1{
+            position: absolute;
+            top: 400px;
+            font-size: 24px;
+            white-space: nowrap;
+        }
+       
+   
+        .texte1 p{
+            font-size: 16px;
+            white-space: nowrap;
+        }
+   
+        .pg1{
+            position: absolute;
+            top: 460px;
+            font-size: 16px;
+            white-space: nowrap;
+        }
+   
+   
+        .texte1 input{
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+   
+        }
+   
+        .mail{
+            position: absolute;
+            top: 540px;
+        }
+   
+        .suivant{
+            position: absolute;
+            top: 540px;
+            right: 50px;
+        }  
+   
+        .texte2{
+            margin-left: 10px;
+            white-space: nowrap;
+        }
+   
+        .texte2{
+            position: absolute;
+            top: 760px;
+        }
+   
+        .texte3 h1{
+            white-space: nowrap;
+            position: absolute;
+            top: -320px;
+            left: 50px;
+            text-align: center;
+        }
+   
+        .texte3 p{
+            position: absolute;
+            top: -280px;
+            white-space: nowrap;
+        }
+   
+        .texte3{
+            position: absolute;
+            transform: none;
+            text-align: center;
+            top: 1310px;
+        }
+    }
+   
+
+
+@media screen and (max-width: 480px) {
+    .texte1{
+        position: relative;
+        text-align: center;
+    }
+
+    .texte1 img{
+        position: absolute;
+        top: -300px;
+        max-width: 50%;
+        height: auto;
+        text-align: center;
+    }
+
+    .texte1 h1{
+        position: absolute;
+        top: -260px;
+        font-size: 14px;
+        white-space: nowrap;
+    }
+
+    .pg1{
+        font-size: 12px;
+        white-space: nowrap;
+        position: absolute;
+        top: -220px;
+        left: -20px;
+    }
+
+    .mail{
+        position: absolute;
+        top: -185px;
+        left: -30px;
+    }
+
+    .suivant{
+        position: absolute;
+        top: -128px;
+        left: -27px;
+    }
+
+    .pg2{
+        font-size: 12px;
+        white-space: nowrap;
+        position: absolute;
+        top: -85px;
+        left: -30px;
+    }
+
+    .texte2 h1{
+        text-align: center;
+        position: absolute;
+        top: -600px;
+        font-size: 14px;
+        white-space: nowrap;
+        right: -70px;
+    }
+
+    .texte2 p{
+        text-align: center;
+        position: absolute;
+        top: -560px;
+        font-size: 14px;
+        white-space: nowrap;
+        right: -130px;
+    }
+
+    .texte3 h1{
+        text-align: center;
+        position: absolute;
+        top: -820px;
+        font-size: 14px;
+        white-space: nowrap;
+        right: -50px;
+    }
+
+    .texte3 p{
+        text-align: center;
+        position: absolute;
+        top: -800px;
+        font-size: 12px;
+        white-space: nowrap;
+        left: -10px;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .image5{
+        order: 1;
+   
+    }
+
+    .image6{
+        order: 2;
+        margin-right: auto;
+        position: absolute;
+        top: 250px;
+    }
+
+    .image7{
+        order: 3;
+        margin-left: auto;
+        position: absolute;
+        top: 500px;
+    }
+
+    .faq {
+        width: 95%;
+    }
+    .plus {
+        right: -3%;
+        bottom: 50%;
+    }
+    .plus .bar {
+        width: 1.3rem;
+    }
+   
+    footer .logo {
+        width: 25%;
+    }
+    .num-5 .titre span {
+        width: 90%;
+        display: inline-block;
+    }
+    .num-5 .plus {
+        position: absolute;
+        z-index: 5;
+        right: -3%;
+        bottom: 50%;
+    }
+
+    .num-5 .plus .bar {
+        width: 1.3rem;
+        height: 0.2rem;
+        display: block;
+        background-color: var(--primary-text-color);
+        border-radius: 5px;
+        position: relative;
+    }
+    .num-5 .plus .bar-one {
+        top: 3px;
+        transform: rotate(90deg);
+    }
+
+    .num-5 .plus.active .bar-one {
+        opacity: 0;
+    }
+    .num-5 .plus.active .bar-two {
+        left: 20%;
+    }
+
+
+    footer div:first-of-type {
+        margin: 1.5rem 0;
+    }
+
+    .footer-links {
+        width: 100%;
+    }
+    .footer-links li {
+        display: inline-block;
+        margin: 0 0.7rem;
+    }
+    .footer-links li a {
+        font-size: 0.7rem;
+        line-height: 2.5rem;
+    }
+    footer .logo {
+        width: 20%;
+    }
+}
