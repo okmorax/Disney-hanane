@@ -1,6 +1,6 @@
 'use strict';
 
-// Annimation du +: quand on click le + devient un -
+// le + devient un -
 const plus = document.querySelectorAll('.plus');
 const accordionText = document.querySelectorAll('.text');
 const titre = document.querySelectorAll('.titre');
@@ -14,7 +14,7 @@ for (let i = 0; i < plus.length; i++) {
     });
 }
 
-//afficher le bouton quand on deflie la page
+//afficher "inscrire" quand on deflie
 const bouton = document.querySelector(".bouton1");
 
 window.addEventListener("scroll", () => {
@@ -25,13 +25,13 @@ window.addEventListener("scroll", () => {
     }
 });
 
-//afficher le logo disney + quand on deflie la page
+//logo disney en continue sur la page
 window.addEventListener("scroll", function() {
     var header = this.document.querySelector("header");
     header.classList.toggle("scrolled", window.scrollY > 500)
 });
 
-//Aller de la page Français à Anglais en un click
+//Français à Anglais 
 
 const langSelect = document.getElementById("lang-select");
 langSelect.addEventListener("change", () => {
